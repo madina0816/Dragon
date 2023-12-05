@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter&family=Poppins:wght@400;700&family=Yusei+Magic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #074F06;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 148px;
+    margin-top: 45px;
+}
+.header h2{
+    font-family:Yusei Magic;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color: #fff;
+}
+ul{
+    display: flex;
+    gap: 0 34px;
+}
+.header-link{
+    font-family: Inter;
+    font-size: 21px;
+    font-weight:normal;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.hero{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.hero-info h1{
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 82px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+.hero-info p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.hero-info button{
+    color: #175015;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    padding: 17px 106px;
+    border-radius: 40px;
+    border: none;
+}
